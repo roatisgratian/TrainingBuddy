@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/logbook"
+        android:textColor="@color/title_color"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.4"
+            android:text="@string/exercise_type"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/logbook_exercise_type_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.6"
+            android:textColor="@color/butons_spinners_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/logbook_weight_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.4"
+            android:text="@string/weight"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/logbook_weight_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.6"
+            android:textColor="@color/butons_spinners_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.4"
+            android:text="@string/rep_count"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/logbook_rep_count_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.6"
+            android:textColor="@color/butons_spinners_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.4"
+            android:text="Sets:"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/logbook_sets_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.6"
+            android:textColor="@color/butons_spinners_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logbook_add_to_stats_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="left|center_vertical"
+        android:minWidth="100dp"
+        android:text="@string/add_to_stats"
+        android:drawableRight="@drawable/plus_blue_icon"
+        android:textColor="@color/butons_spinners_color"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/logbook_check_stats_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="left|center_vertical"
+        android:minWidth="100dp"
+        android:drawableRight="@drawable/blue_round_plus_button"
+        android:text="@string/check_stats"
+        android:textColor="@color/butons_spinners_color"
+        android:textSize="14sp" />
+
+</LinearLayout>

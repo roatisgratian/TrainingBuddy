@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/add_new_workout"
+            android:textColor="@color/title_color"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text="@string/new_workout_name"
+                android:textSize="18sp"
+                android:textColor="@color/text_color"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/workout_name_edittext"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:textColor="@color/text_color"
+                android:inputType="textCapSentences"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/exercise_spinners_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exercise"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_spinner3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_spinner4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_spinner5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_spinner6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_spinner7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_spinner8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_spinner9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_spinner10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/reps_spinners_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reps"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/text_color"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_reps_spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_reps_spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_reps_spinner3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_reps_spinner4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_reps_spinner5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_reps_spinner6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_reps_spinner7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_reps_spinner8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_reps_spinner9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_reps_spinner10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sets_spinners_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sets"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_sets_spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_sets_spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_sets_spinner3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_sets_spinner4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_sets_spinner5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_sets_spinner6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_sets_spinner7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_sets_spinner8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_sets_spinner9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/workout_exercise_sets_spinner10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/butons_spinners_color"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/workout_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/save_workout"
+            android:textColor="@color/butons_spinners_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</ScrollView>

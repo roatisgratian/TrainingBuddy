@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner_exercises">
+        <item>Alternating crunches</item>
+        <item>Bar curl</item>
+        <item>Behind the neck shoulder_press</item>
+        <item>Bench press</item>
+        <item>Bulgarian split squat</item>
+        <item>Chest press</item>
+        <item>Crunches</item>
+        <item>Deadlift</item>
+        <item>Diamond push ups</item>
+        <item>Dish position</item>
+        <item>Dumbell curls</item>
+        <item>Fly`s</item>
+        <item>Front squat</item>
+        <item>Hammer curls</item>
+        <item>Mason twist</item>
+        <item>One arm tricep pull downs</item>
+        <item>Penguins</item>
+        <item>Romanian deadlift straight leg</item>
+        <item>Russian twists</item>
+        <item>Shoulder press</item>
+        <item>Shoulder press with bar</item>
+        <item>Shoulder twists</item>
+        <item>Shrugs</item>
+        <item>Sits ups</item>
+        <item>Skull crush</item>
+        <item>Squat</item>
+        <item>The plank</item>
+        <item>The side plank</item>
+        <item>Tricep extensions</item>
+        <item>Tricep pull downs</item>
+        <item>Under arm chin ups</item>
+        <item>Wide arm pull ups</item>
+        <item>Wide arm push ups</item>
+        <item>Zottman curls</item>
+    </string-array>
+
+</resources>
